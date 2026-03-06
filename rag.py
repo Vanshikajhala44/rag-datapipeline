@@ -10,8 +10,14 @@ import chromadb
 from chromadb.config import Settings
 
 load_dotenv()
-
+# Pehle
 groq_client = Groq(api_key=os.getenv("GROQ"))
+
+import streamlit as st
+
+api_key = os.getenv("GROQ") or st.secrets.get("GROQ")
+groq_client = Groq(api_key=api_key)
+
 
 
 # ---------- LOAD PDF PAGE BY PAGE ----------
