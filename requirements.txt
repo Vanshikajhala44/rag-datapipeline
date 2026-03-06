@@ -1,5 +1,4 @@
-langchain==0.2.16
-langchain-text-splitters==0.3.11
+langchain-text-splitters==0.2.4
 sentence-transformers==2.7.0
 groq==0.9.0
 python-dotenv==1.0.1
@@ -7,3 +6,4 @@ numpy>=1.26.0
 chromadb
 streamlit
 pdfplumber
+langchain-core
