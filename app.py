@@ -4,7 +4,7 @@ from rag import RAGPipeline
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
-    page_title="RAG-DOG — RAG Assistant",
+    page_title="RAG-DOC — RAG Assistant",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
